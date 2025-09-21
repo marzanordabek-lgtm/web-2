@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 - Table and Back</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+  <div id="header">
+    My School Portal
+  </div>
+
+  <div id="navbar">
+    <a href="#">Task 1</a>
+    <a href="#">Task 2</a>
+    <a href="#">Task 3</a>
+    <a href="#">Task 4</a>
+  </div>
+
+  <div id="content" class="content">
+
+    <div class="clearfix"></div>
+
+    <h1 id="page-heading">Student Grades</h1>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td>Marzhan</td>
+        <td>Math</td>
+        <td>A+</td>
+      </tr>
+      <tr>
+        <td>Meruert</td>
+        <td>History</td>
+        <td>B</td>
+      </tr>
+      <tr class="highlight-row">
+        <td>Symbat</td>
+        <td>Science</td>
+        <td>A-</td>
+      </tr>
+      <tr>
+        <td>Aisha</td>
+        <td>English</td>
+        <td>B+</td>
+      </tr>
+    </table>
+
+    <div class="clearfix"></div>
+
+    <h2>Feedback Form</h2>
+    <form id="feedback-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="role">Role:</label>
+      <select id="role" name="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+      </select>
+
+      <p>Do you like our portal?</p>
+      <label><input type="radio" name="like" value="yes"> Yes</label>
+      <label><input type="radio" name="like" value="no"> No</label>
+      
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    © 2025 Ordabek Marzhan
+  </div>
+
+</body>
+</html>

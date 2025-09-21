@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+#header {
+  background-color: #574fd6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+#navbar a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+#navbar a:hover {
+  background-color: #9e8eab;
+}
+
+/* Sidebar */
+#sidebar {
+  width: 25%;
+  float: left;
+  background-color: #f4f4f4;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#content, .content {
+  width: 70%;
+  margin-left: 20px; 
+  background-color: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+  float: none;   
+}
+
+
+/* Footer */
+#footer {
+  clear: both;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Table styling for Task 3 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table, th, td {
+  border: 1px solid #333;
+}
+th {
+  background-color: #574fd6;
+  color: white;
+  padding: 10px;
+}
+td {
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(even) { background-color: #f2f2f2; }
+.highlight-row { background-color: #ffd699; }
+
+/* Form styling */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+form label {
+  font-weight: bold;
+}
+form input, form select, form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+form button {
+  padding: 10px 15px;
+  background-color: #574fd6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #9e8eab;
+}
+
+/* Tribute page additional styling */
+.content img {
+  width: 300px;
+  height: auto;
+}
+
+
+.content h1, .content h2, .content h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.content p, .content li {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #574fd6;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #9e8eab;
+}
